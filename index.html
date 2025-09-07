@@ -1,31 +1,368 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projeto Integrador – TIA Portal</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=LEKJMVshl159W8xOldy4LaNgv4xf9slhwDOtYc2XCiCSrteDzQ2jOTyjc3CGWxJI7mU4TAJDZ36_lP1VDOblgkKX4J1OdcaEYRBWWvlLCnq6LHipCZVqzL7vZ404e-8yFYy8QKIaOXdfNYgI3ZgCWY7i4b1v9yAzYChIZ5cL8UQxT9dZSqR1ZqwcWzv56zjV7U1Ufu0xkoLqDXku7Rwk3epNZ0BfnFsvEoHi_C6uC-4Om_U_97yWl200Qai_FIyOFcZGc__-cMj8A4MjLIhiHBeIKX3cMllfRJWyzj8cV7ANmnXK_mMGvWF3ngt-ywwo5N6UZaO8ZNXgGvz_-MOmEmLNL22pjn34Ip23VT9jY_g8H3BKdVt1Ag21SkDurRrpHjVPtv2g-nvN92A2AqxTjAG8HXrse2c91cVlL8mlzzg66xjxRcPZdkydQtvpSKI1z4TyRcZgv4b1-64jTtJQw90pgosY63J8A1fIWfCkduF5v-fHVzd5KOuGO4LYEgz19fSc4UD-G9SnqygNxhsQS7YZ5s1L2ZwxRpxu6RaWUYcYICRrLhFbchjdI1X6LwWV0QOtsfGuDYfVEvNMHEV-_3mCTFoGc4dRjJgrMtO3WvmnBcdHmmYG71CGUKxxeQi3kjqdHSszLY-JB2p2giNwlSi7g-P9oe81TFMRFO06yDP0EDbbgQvhuz_KlQGDEhwTM5eZ49GyQIpfdwwd0HAlIx0agfrv2rGB0aUwBNZMxiDL2ohH1dIE2knqFTi5VtMQ8a4iHi_8yTIQsC8Y__8TaLJEOdAG8rcnqoCBTa6a7UIgCwhQCc2HuItVUjcypkV6Nkm3Pj2W7zyLs1NPHl4dnwwqTDTyOFDtyg1py5cYlBWxJq9FdM6mIA4EWDeAK67KwjTk2XE9UQbM7yLbExSoXK_j1Iw8HlwZNgp5UtVxYd6f0BBDWukZujX-9qLaOZjhm2qpwm6vxJI4OZjAYO80td-gQV96wC3nn_z1EoRADAZ0tfyrKA5XBS1-bI23J1RTnZIHhtDQ_ZnSMe_s0Q5rmDSLmRCQo-glFwieFRj-Ok-hbab8aCObU4bTyGO4g07D_KqlZae4O_VjD7equNt6JBGa5Yi711gt59uKF03Uf9ilZ7DZzWv97i81ttaNPjmBoCix0ZypwQEUss5AmoQ_EPnFvoycWAcyMcxQTwOPKG0je_PpDkqUT_QWdGSSnYQVAtgBLdNp2ADti46DzT-yy4qglvrro0fp1K1dZIpn9DFRJYA10-idm9EcSuRlHvc767v2JWWKfOI0QdWMwz4l42noPLa41nX0P0oWOTeNJvEhtyPgwA-tFRgIlWL_m_aHEECnu0ABsmeU1-PeboPZcasMnE-TybZvrjL_z6IzGltC2P31jqwHh6p4Io6-FIvh0hCCbfiFx85LkIHkxWjErmBQlroUsZDBt-Pp3UPc33Dbhh8h_GQJN8Oc0054aCc8uI7NsBUYxywVBqUReFe5R-zp3v6Xx8FuWIy5-AFD4t-R18h-C-2ZjuEQaFBSXWzDIxZZQJ5fbR0W-lh5Mht0MviTGV1k6_FuxkmS9pKdFIiSQUL8tivKsz9CcaGXiiYAyfc4my_WPfoJFs0lDj503e4eg4u8H0aT1GeSmfBSRanBOOC8jINS7jZpqRtABbi2yWZjvYXcXuzvgRd2QEZe-GimsTlSKOqUgkdOEezHcVJ_qTDtno_q_Lht4-jeWBbd67BHmBimcilHXIBTZ7KlF08Y8mFC5rOeqPbOhUk73ypH7zaCyplhfX5TtoHTysJaa7KRzfp-pc08tIAjpXDFNpFEJMFGXNPyjFf3wIYi81l5isP5x-MYlBlAE-HOvhb-CVIR1amqsqRUtrV7d9UX6z50hp3W9eD8RgXLFt4E6qMHpwx9J4SlZNw6d31Ul2hQVe65Wz90DmCbfjKZw5ztUOX9esQ-SL0jLZ3MoR46cgKlhXHB_Ag8k-S5qPiweL7xr7IVB-LOREgpUN0DE02qSvIRT0lztY50GnuOKad8rUYvtQRKnxc7f0prjD8rWjC5neFwXwkcjQs2Mi8welJ9oeYSnnL7gkAWPFX5nRQMEC2PA5e0wDHzvo0tDUgGa-8VRV1kP6s4O9tO3-PQ_pEEfNE0B44QXJk8Nr275-NoW2ou8Npv10SuKhXynnrZ5q-mYYujGVLFGD6_ql-1UiyzBEfO6VpTKzPr-z85bUCtQWYRJ65Xtqaf2Xy_Nm8hzfan0pOVq0tW71OToiQgxvPwP9n41WX3BxeYxRyux7XyFTo" charset="UTF-8"></script><script src="js/main.js" defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Organização de Programas no TIA Portal – FBs, FCs, DBs, ARRAY e +</title>
+  <style>
+    :root{
+      --bg:#0f172a;          /* slate-900 */
+      --panel:#111827;       /* gray-900 */
+      --muted:#94a3b8;       /* slate-400 */
+      --text:#e5e7eb;        /* gray-200 */
+      --brand:#22c55e;       /* green-500 */
+      --accent:#38bdf8;      /* sky-400 */
+      --danger:#ef4444;      /* red-500 */
+      --warn:#f59e0b;        /* amber-500 */
+      --ok:#10b981;          /* emerald-500 */
+      --card:#0b1220;        /* deep panel */
+      --chip:#1f2937;        /* gray-800 */
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:radial-gradient(1200px 800px at 80% -10%, #1f2937 0%, var(--bg) 40%), var(--bg);color:var(--text);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial}
+
+    /* Top bar */
+    .topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:14px;padding:10px 16px;background:rgba(15,23,42,.75);backdrop-filter:blur(8px);border-bottom:1px solid #1f2937}
+    .brand{display:flex;align-items:center;gap:10px}
+    .logo{width:36px;height:36px;border-radius:12px;background:linear-gradient(135deg,var(--brand),var(--accent));box-shadow:0 8px 20px rgba(34,197,94,.35)}
+    .title{font-weight:700;font-size:18px}
+    .subtitle{font-size:12px;color:var(--muted)}
+
+    /* Hamburger */
+    .burger{margin-left:auto;border:0;background:transparent;color:var(--text);width:44px;height:44px;border-radius:12px;display:grid;place-items:center;cursor:pointer}
+    .burger:hover{background:#111827}
+    .burger span, .burger span:before, .burger span:after{display:block;content:"";width:22px;height:2px;background:var(--text);border-radius:2px;position:relative;transition:.25s}
+    .burger span:before{position:absolute;top:-6px}
+    .burger span:after{position:absolute;top:6px}
+    .burger.active span{background:transparent}
+    .burger.active span:before{transform:translateY(6px) rotate(45deg)}
+    .burger.active span:after{transform:translateY(-6px) rotate(-45deg)}
+
+    /* Drawer */
+    .drawer{position:fixed;inset:0 0 0 auto;width:min(360px,92vw);background:rgba(17,24,39,.98);border-left:1px solid #1f2937;transform:translateX(100%);transition:transform .35s ease;z-index:60;display:flex;flex-direction:column}
+    .drawer.open{transform:none}
+    .drawer .nav{padding:18px 16px;overflow:auto}
+    .drawer .nav a{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;color:var(--text);text-decoration:none;border:1px solid transparent}
+    .drawer .nav a:hover{background:#0b1220;border-color:#1f2937}
+    .nav .small{font-size:12px;color:var(--muted)}
+
+    /* Layout */
+    .container{max-width:1200px;margin:24px auto;padding:0 16px;display:grid;grid-template-columns:280px 1fr;gap:18px}
+    @media (max-width:1000px){.container{grid-template-columns:1fr}}
+
+    /* Left rail (quick nav) */
+    .rail{position:sticky;top:70px;height:calc(100dvh - 90px);overflow:auto;padding-right:8px;display:none}
+    @media (min-width:1000px){.rail{display:block}}
+    .rail a{display:block;padding:10px 12px;margin:6px 0;border-radius:12px;color:var(--text);text-decoration:none;background:linear-gradient(180deg, rgba(31,41,55,.65), rgba(31,41,55,.35));border:1px solid #1f2937}
+    .rail a:hover{filter:brightness(1.1)}
+
+    /* Main */
+    main{display:grid;gap:18px}
+
+    .card{background:linear-gradient(180deg, rgba(17,24,39,.85), rgba(11,18,32,.95));border:1px solid #1f2937;border-radius:var(--radius);box-shadow:var(--shadow);padding:18px}
+    .card h2{margin:0 0 6px;font-size:20px}
+    .card h3{margin:14px 0 6px;font-size:17px}
+    .muted{color:var(--muted)}
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:var(--chip);border:1px solid #1f2937;color:#cbd5e1;padding:6px 10px;border-radius:999px;font-size:12px}
+
+    .kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    @media (max-width:900px){.kpi{grid-template-columns:repeat(2,1fr)}}
+    .kpi .box{background:linear-gradient(180deg,#0b1220,#0a1222);border:1px solid #152033;border-radius:18px;padding:14px}
+    .kpi .box .v{font-size:26px;font-weight:800}
+    .kpi .box .t{font-size:12px;color:var(--muted)}
+
+    .grid{display:grid;gap:12px}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    @media (max-width:900px){.grid.cols-2,.grid.cols-3{grid-template-columns:1fr}}
+
+    pre{background:#0a1020;border:1px solid #152033;border-radius:14px;padding:12px;overflow:auto}
+    code{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
+
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:8px 10px;border-radius:12px;border:1px solid #1f2937;background:#0b1220}
+    .badge .dot{width:10px;height:10px;border-radius:50%}
+
+    .list{display:grid;gap:10px}
+    .item{border:1px solid #1f2937;border-radius:14px;padding:12px;background:#0b1220}
+
+    .toggle{appearance:none;width:46px;height:26px;background:#334155;border-radius:999px;position:relative;outline:none;cursor:pointer;transition:.2s;vertical-align:middle;border:1px solid #1f2937}
+    .toggle:checked{background:linear-gradient(135deg,var(--brand),var(--accent))}
+    .toggle:before{content:"";position:absolute;inset:3px;aspect-ratio:1/1;background:#0b1220;border-radius:50%;transition:.2s}
+    .toggle:checked:before{transform:translateX(20px)}
+
+    .grid.kb{grid-template-columns:repeat(4, 1fr)}
+    @media (max-width:1100px){.grid.kb{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:680px){.grid.kb{grid-template-columns:1fr}}
+
+    .pill{display:inline-block;padding:.15rem .55rem;border-radius:999px;background:#0f172a;border:1px solid #1f2937;color:#cbd5e1;font-size:12px}
+
+    .footer{margin:16px 0 40px;color:var(--muted);font-size:12px;text-align:center}
+  </style>
 </head>
 <body>
-  <header>
-    <nav class="menu">
-      <ul>
-        <li><a href="#objetivo">Objetivo</a></li>
-        <li><a href="#problema">Problema</a></li>
-        <li><a href="#exemplo">Exemplo</a></li>
-        <li><a href="#proximos-passos">Próximos Passos</a></li>
-        <li><a href="#documentacao">Documentação</a></li>
-      </ul>
-    </nav>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <div>
+        <div class="title">Dashboard – Organização de Programas no TIA Portal</div>
+        <div class="subtitle">FBs • FCs • DBs • ARRAY • UDTs  • Arquitetura S7‑1215 • KTP700 • Elipse E3 • Node‑RED</div>
+      </div>
+    </div>
+    <button id="burger" class="burger" aria-label="Abrir menu de navegação" aria-expanded="false"><span></span></button>
   </header>
 
-  <main>
-    <!-- Seções geradas dinamicamente -->
-  </main>
+  <!-- Drawer / Menu hambúrguer -->
+  <aside id="drawer" class="drawer" aria-hidden="true">
+    <nav class="nav">
+      <h3 style="margin:6px 0 12px">Navegação</h3>
+      <a href="#intro">📌 Introdução & Objetivos</a>
+      <a href="#estrutura">🏗️ Estrutura de Projeto (FB/FC/DB/ARRAY/UDT)</a>
+      <a href="#arquitetura">🗺️ Arquitetura S7‑1215 + KTP700 + Elipse + Node‑RED</a>
+      <a href="#exemplo">🧪 Exemplo de Estrutura – Receita & Partida de Motor</a>
+      <a href="#riscos">⚠️ Riscos de Desorganização</a>
+      <a href="#checklist">✅ Checklist de Qualidade</a>
+      <a href="#avaliacao">📊 Métricas & Avaliação</a>
+      <div class="small" style="margin-top:8px">As preferências são salvas no navegador (localStorage).</div>
+    </nav>
+  </aside>
 
-  <footer>
-    <p>© 2025 SENAI – Departamento Regional RJ | Instrutor: [Seu Nome]</p>
-  </footer>
+  <div class="container">
+    <!-- Quick rail -->
+    <nav class="rail">
+      <a href="#intro">Introdução & Objetivos</a>
+      <a href="#estrutura">Estrutura (FB/FC/DB/ARRAY/UDT)</a>
+      <a href="#arquitetura">Arquitetura</a>
+      <a href="#exemplo">Exemplo</a>
+      <a href="#riscos">Riscos</a>
+      <a href="#checklist">Checklist</a>
+      <a href="#avaliacao">Métricas</a>
+     </nav>
+
+    <main>
+      <!-- Intro -->
+      <section id="intro" class="card">
+        <h2>Por que organizar o programa no TIA Portal?</h2>
+        <p class="muted">Projeto didático para jovens aprendizes – Este dashboard resume práticas profissionais para organizar projetos PLC/SCADA em ambientes Siemens (TIA Portal) e integrações de chão de fábrica.</p>
+        <div class="kpi" style="margin-top:10px">
+          <div class="box"><div class="v" id="kpi_tempo">−30%</div><div class="t">Tempo de comissionamento</div></div>
+          <div class="box"><div class="v" id="kpi_paradas">−20%</div><div class="t">Paradas por erro de lógica</div></div>
+          <div class="box"><div class="v" id="kpi_mudanca">−40%</div><div class="t">Lead time de mudanças</div></div>
+          <div class="box"><div class="v" id="kpi_qualidade">+25%</div><div class="t">Cobertura de testes</div></div>
+        </div>
+        <div class="chips" style="margin-top:10px">
+          <span class="chip">S7‑1215 DC/DC/DC</span>
+          <span class="chip">KTP700 Basic</span>
+          <span class="chip">Elipse E3</span>
+          <span class="chip">Node‑RED</span>
+        </div>
+      </section>
+
+      <!-- Estrutura -->
+      <section id="estrutura" class="card">
+        <h2>Estrutura de Projeto (FBs, FCs, DBs, ARRAY, UDTs)</h2>
+        <div class="grid cols-2">
+          <div>
+            <h3>FB (Function Block)</h3>
+            <p>Encapsula <strong>estado</strong> e <strong>comportamento</strong>. Cada instância possui um DB de instância. Ideal para módulos com memória: motores, válvulas, PID, receitas, alarmes.</p>
+            <div class="badge"><span class="dot" style="background:var(--ok)"></span>Use para: equipamentos/máquinas com ciclo de vida próprio.</div>
+          </div>
+          <div>
+            <h3>FC (Function)</h3>
+            <p>Rotina <strong>sem estado</strong> (pura). Não cria DB de instância. Ideal para <em>cálculos</em>, conversões, validações e utilidades (ex.: escalonamento analógico, CRC, parser).</p>
+            <div class="badge"><span class="dot" style="background:var(--accent)"></span>Use para: utilidades reutilizáveis sem memória.</div>
+          </div>
+          <div>
+            <h3>DB (Data Block)</h3>
+            <p>Armazena dados. <strong>DB de Instância</strong> pertence a um FB; <strong>DB Global</strong> centraliza configurações (ex.: <code>DB_Config</code>, <code>DB_Receitas</code>, <code>DB_Alarmes</code>).</p>
+          </div>
+          <div>
+            <h3>ARRAY & UDT</h3>
+            <p>ARRAY organiza coleções (ex.: <code>ARRAY[1..20] OF UDT_Motor</code>). <strong>UDT</strong> define estruturas tipadas para manter padrão em todo o projeto.</p>
+          </div>
+        </div>
+        <h3>Programa estruturado vs. não estruturado</h3>
+        <ul class="list">
+          <li class="item"><strong>Estruturado:</strong> hierarquia clara (OB → FBs por função → FCs utilitários), dados em UDT/DB, nomes padronizados, separação de camadas (I/O, lógica, HMI/SCADA), documentação embutida.<br><span class="muted">Benefícios: manutenção previsível, testes mais fáceis, menor risco operacional.</span></li>
+          <li class="item"><strong>Não estruturado:</strong> lógicas espalhadas no OB1, bits mágicos, DBs sem padrão, duplicação de código, sem comentários.<br><span class="muted">Consequências: retrabalho, falhas intermitentes, tempo de parada alto, dificuldade de auditoria e segurança.</span></li>
+        </ul>
+      </section>
+            <!-- Arquitetura -->
+      <section id="arquitetura" class="card">
+        <h2>Arquitetura Didática – S7‑1215 + KTP700 + Elipse E3 + Node‑RED</h2>
+        <div class="grid cols-2">
+          <div>
+            <p>Exemplo de integração de camadas:</p>
+            <ul class="list">
+              <li class="item"><strong>Nível de Controle (PLC):</strong> S7‑1215 DC/DC/DC executa OB/FB/FC com UDTs padronizados. DBs: <code>DB_Receitas</code>, <code>DB_Usuario</code>, <code>DB_Alarmes</code>.</li>
+              <li class="item"><strong>IHM:</strong> KTP700 Basic vincula variáveis do PLC a telas de <em>Status</em>, <em>Alarmes</em>, <em>Receitas</em>.</li>
+              <li class="item"><strong>SCADA:</strong> Elipse E3 lê tags via OPC/driver S7 para supervisão, histórico e relatórios.</li>
+              <li class="item"><strong>Integração:</strong> Node‑RED publica eventos de produção/alarme para MQTT/HTTP, podendo alimentar dashboards web/BI.</li>
+            </ul>
+          </div>
+          <div>
+            <svg viewBox="0 0 520 280" width="100%" style="background:#0b1220;border:1px solid #152033;border-radius:14px">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+              </defs>
+              <rect x="20" y="30" width="140" height="70" rx="14" fill="#111827" stroke="#1f2937"/>
+              <text x="90" y="55" fill="#e5e7eb" font-size="14" text-anchor="middle">PLC</text>
+              <text x="90" y="75" fill="#94a3b8" font-size="12" text-anchor="middle">S7‑1215</text>
+
+              <rect x="200" y="30" width="140" height="70" rx="14" fill="#111827" stroke="#1f2937"/>
+              <text x="270" y="55" fill="#e5e7eb" font-size="14" text-anchor="middle">IHM</text>
+              <text x="270" y="75" fill="#94a3b8" font-size="12" text-anchor="middle">KTP700</text>
+
+              <rect x="380" y="30" width="120" height="70" rx="14" fill="#111827" stroke="#1f2937"/>
+              <text x="440" y="55" fill="#e5e7eb" font-size="14" text-anchor="middle">SCADA</text>
+              <text x="440" y="75" fill="#94a3b8" font-size="12" text-anchor="middle">Elipse E3</text>
+
+              <rect x="200" y="170" width="140" height="70" rx="14" fill="#111827" stroke="#1f2937"/>
+              <text x="270" y="195" fill="#e5e7eb" font-size="14" text-anchor="middle">Node‑RED</text>
+              <text x="270" y="215" fill="#94a3b8" font-size="12" text-anchor="middle">MQTT/HTTP</text>
+
+              <line x1="160" y1="65" x2="200" y2="65" stroke="url(#g1)" stroke-width="3"/>
+              <line x1="340" y1="65" x2="380" y2="65" stroke="url(#g1)" stroke-width="3"/>
+              <line x1="270" y1="100" x2="270" y2="170" stroke="#38bdf8" stroke-width="3" stroke-dasharray="6 6"/>
+              <circle cx="270" cy="135" r="6" fill="#38bdf8"/>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Exemplo prático -->
+      <section id="exemplo" class="card">
+        <h2>Exemplo Prático – Módulo de Receita + Motor</h2>
+        <p>Receita define parâmetros de produção (velocidade, setpoints). O FB do motor lê parâmetros ativos da receita, executa intertravamentos e registra estados/alarme.</p>
+        <div class="grid cols-2">
+          <div>
+<pre><code>// UDTs (pseudo‑ST/Declarativo)
+TYPE UDT_Receita : STRUCT
+  Nome : STRING[32];
+  Velocidade : REAL;
+  TempSP : REAL;
+  ValvulaA_Abre : BOOL;
+END_STRUCT; END_TYPE
+
+TYPE UDT_Motor : STRUCT
+  CmdStart, CmdStop : BOOL;
+  StsReady, StsRun, StsFault : BOOL;
+  Falhas : ARRAY[1..10] OF INT;
+END_STRUCT; END_TYPE
+</code></pre>
+          </div>
+          <div>
+<pre><code>// DBs globais
+DB_Receitas : ARRAY[1..20] OF UDT_Receita;
+DB_Producao : STRUCT
+  ReceitaAtiva : INT;
+  LotesProduzidos : DINT;
+END_STRUCT;
+
+// FBs/FCs
+FB_Motor( VAR_IN_OUT m : UDT_Motor; );
+FC_AplicaReceita( idx : INT );
+</code></pre>
+          </div>
+        </div>
+        <h3>Fluxo</h3>
+        <ol>
+          <li>Operador seleciona receita no KTP700 → <code>DB_Producao.ReceitaAtiva</code>.</li>
+          <li><code>FC_AplicaReceita</code> carrega parâmetros de <code>DB_Receitas[idx]</code> para variáveis de processo.</li>
+          <li><code>FB_Motor</code> executa lógica (partida, supervisão, alarmes) com base nos parâmetros.</li>
+          <li>Elipse E3 registra eventos e alarmes; Node‑RED publica resumo do lote.</li>
+        </ol>
+      </section>
+
+      <!-- Riscos -->
+      <section id="riscos" class="card">
+        <h2>Riscos de Desorganização</h2>
+        <div class="grid cols-3">
+          <div class="item"><strong>Ineficiência operacional</strong><br><span class="muted">Tempo excessivo para localizar variáveis e entender lógica → atrasos de setup e comissionamento.</span></div>
+          <div class="item"><strong>Segurança</strong><br><span class="muted">Intertravamentos inconsistentes podem permitir partidas indevidas; alarmes não rastreados comprometem a análise de causa.</span></div>
+          <div class="item"><strong>Custos</strong><br><span class="muted">Mais horas de manutenção, maior downtime e risco de retrabalho/auditorias. Estoque de peças/software não padronizado.</span></div>
+        </div>
+        <h3>Exemplo realista de impacto</h3>
+        <p class="muted">Um programa com bits “mágicos” no OB1 causou partidas indevidas após atualização de firmware. Sem camadas e sem UDTs, levaram 6 horas para achar o problema. Resultado: 6h de parada × R$ 8.000/h = <strong>R$ 48.000</strong> de perda, além do risco de segurança. A simples adoção de FBs por equipamento + DB de configuração teria isolado o efeito.</p>
+      </section>
+
+      <!-- Checklist -->
+      <section id="checklist" class="card">
+        <h2>Checklist de Qualidade (salva no navegador)</h2>
+        <div class="grid kb">
+          <label class="item"><input type="checkbox" data-k="ck_udt"/> UDTs para equipamentos & receitas definidos</label>
+          <label class="item"><input type="checkbox" data-k="ck_camadas"/> Camadas separadas (I/O, Lógica, HMI/SCADA)</label>
+          <label class="item"><input type="checkbox" data-k="ck_docs"/> Comentários e descrição em blocos/variáveis</label>
+          <label class="item"><input type="checkbox" data-k="ck_alarm"/> Padrão de alarmes e estados (Ack, Code, TS)</label>
+          <label class="item"><input type="checkbox" data-k="ck_rec"/> Módulo de receitas com validação</label>
+          <label class="item"><input type="checkbox" data-k="ck_test"/> OB de teste e simulação (quando aplicável)</label>
+          <label class="item"><input type="checkbox" data-k="ck_git"/> Estrutura para GitHub (README, licenças, pastas)</label>
+          <label class="item"><input type="checkbox" data-k="ck_")"/> Backup & versão (nomenclatura de release)</label>
+        </div>
+      </section>
+      <!-- Avaliação -->
+      <section id="avaliacao" class="card">
+        <h2>Métricas & Avaliação</h2>
+        <p>Defina metas específicas e mensuráveis para o projeto didático:</p>
+        <ul class="list">
+          <li class="item">Reduzir tempo de comissionamento em <strong>≥ 30%</strong> (baseline vs. após padronização).</li>
+          <li class="item">Reduzir paradas por erro de lógica em <strong>≥ 20%</strong> em 90 dias.</li>
+          <li class="item">Aumentar cobertura de testes de funções/FBs para <strong>≥ 25%</strong> dos blocos críticos.</li>
+          <li class="item">Tempo médio para localizar uma variável/alarme: <strong>&lt; 60 s</strong>.</li>
+        </ul>
+        <p class="muted">Sugestão de evidências: relatórios do Elipse E3 (históricos), changelog do repositório, checklist concluída.</p>
+      </section>
+
+      <!-- Recursos -->
+    
+      <div class="footer">Feito para fins educacionais. Ajuste os exemplos ao padrão da sua empresa/escola.</div>
+    </main>
+  </div>
+
+  <script>
+    // Drawer logic
+    const burger = document.getElementById('burger');
+    const drawer = document.getElementById('drawer');
+
+    function setDrawer(open){
+      drawer.classList.toggle('open', open);
+      burger.classList.toggle('active', open);
+      burger.setAttribute('aria-expanded', open);
+      drawer.setAttribute('aria-hidden', !open);
+    }
+    burger.addEventListener('click', ()=> setDrawer(!drawer.classList.contains('open')));
+    drawer.addEventListener('click', (e)=>{ if(e.target.tagName==='A') setDrawer(false); });
+
+    // Toggle prefix chips
+    const chk = document.getElementById('toggle_prefixos');
+    const box = document.getElementById('prefixos');
+    const KEY_PREF = 'dash_tia_prefixos';
+    chk.checked = localStorage.getItem(KEY_PREF)==='1';
+    box.style.display = chk.checked ? 'block' : 'none';
+    chk.addEventListener('change', ()=>{
+      box.style.display = chk.checked ? 'block' : 'none';
+      localStorage.setItem(KEY_PREF, chk.checked ? '1' : '0');
+    });
+
+    // Checklist persistence
+    document.querySelectorAll('[data-k]').forEach(el=>{
+      const k = 'dash_ck_'+el.dataset.k;
+      const saved = localStorage.getItem(k);
+      if(saved==='1') el.checked = true;
+      el.addEventListener('change', ()=> localStorage.setItem(k, el.checked ? '1' : '0'));
+    });
+
+    // Smooth anchors
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', (e)=>{
+        const id = a.getAttribute('href').slice(1);
+        const el = document.getElementById(id);
+        if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+      })
+    });
+  </script>
 </body>
 </html>
